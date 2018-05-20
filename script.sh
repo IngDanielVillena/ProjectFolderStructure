@@ -18,6 +18,11 @@ do
    mkdir ${carpeta}/app/dist/resource/
 
    mkdir ${carpeta}/app/docs/
+   touch ${carpeta}/app/docs/FAQ.md
+   touch ${carpeta}/app/docs/MISC.md
+   touch ${carpeta}/app/docs/TOC.md
+   touch ${carpeta}/app/docs/USAGE.md
+   
    mkdir ${carpeta}/app/logs/
    mkdir ${carpeta}/app/resource/
    mkdir ${carpeta}/app/src/
