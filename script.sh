@@ -11,7 +11,12 @@ while read carpeta
 do
 
    mkdir ${carpeta}/app/
+
    mkdir ${carpeta}/app/dist/
+   mkdir ${carpeta}/app/dist/app/
+   mkdir ${carpeta}/app/dist/base/
+   mkdir ${carpeta}/app/dist/resource/
+
    mkdir ${carpeta}/app/docs/
    mkdir ${carpeta}/app/logs/
    mkdir ${carpeta}/app/resource/
