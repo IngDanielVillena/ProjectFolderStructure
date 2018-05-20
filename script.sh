@@ -11,3 +11,7 @@ while read carpeta
 do
 
 done
+
+else
+    echo "Se ha alcanzado el límite de tiempo."
+fi
