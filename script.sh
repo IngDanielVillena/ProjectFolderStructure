@@ -22,9 +22,16 @@ do
    touch ${carpeta}/app/docs/MISC.md
    touch ${carpeta}/app/docs/TOC.md
    touch ${carpeta}/app/docs/USAGE.md
-   
+
    mkdir ${carpeta}/app/logs/
+
    mkdir ${carpeta}/app/resource/
+   mkdir ${carpeta}/app/resource/static/
+   mkdir ${carpeta}/app/resource/static/css/
+   mkdir ${carpeta}/app/resource/static/imgs/
+   mkdir ${carpeta}/app/resource/static/js/
+   mkdir ${carpeta}/app/resource/static/vendor/
+
    mkdir ${carpeta}/app/src/
    mkdir ${carpeta}/base/
    mkdir ${carpeta}/test/
