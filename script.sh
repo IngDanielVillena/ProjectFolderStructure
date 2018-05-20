@@ -33,6 +33,23 @@ do
    mkdir ${carpeta}/app/resource/static/vendor/
 
    mkdir ${carpeta}/app/src/
+   mkdir ${carpeta}/app/src/component/
+   mkdir ${carpeta}/app/src/config/
+   mkdir ${carpeta}/app/src/controller/
+   mkdir ${carpeta}/app/src/converter/
+   mkdir ${carpeta}/app/src/dao/
+   mkdir ${carpeta}/app/src/entity/
+   mkdir ${carpeta}/app/src/helper/
+   mkdir ${carpeta}/app/src/middleware/
+   mkdir ${carpeta}/app/src/model/
+   mkdir ${carpeta}/app/src/repository/
+   mkdir ${carpeta}/app/src/service/
+   mkdir ${carpeta}/app/src/service/impl/
+   mkdir ${carpeta}/app/src/test/
+   mkdir ${carpeta}/app/src/view/
+   mkdir ${carpeta}/app/src/view/event/
+   mkdir ${carpeta}/app/src/view/fragment/
+
    mkdir ${carpeta}/base/
    mkdir ${carpeta}/test/
    touch ${carpeta}/LICENSE
