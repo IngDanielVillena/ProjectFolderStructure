@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Bash script."
+echo ""
 
 if read -t 60 -p "What is the name of the project? " projectName; then
 
@@ -52,8 +52,57 @@ do
 
    mkdir ${carpeta}/base/
    mkdir ${carpeta}/test/
+
    touch ${carpeta}/LICENSE
    touch ${carpeta}/README.md
+
+   echo ""
+
+   echo "."
+   echo "├── app"
+   echo "│   ├── dist"
+   echo "│   │   ├── app"
+   echo "│   │   ├── base"
+   echo "│   │   └── resource"
+   echo "│   ├── docs"
+   echo "│   │   ├── FAQ.md"
+   echo "│   │   ├── MISC.md"
+   echo "│   │   ├── TOC.md"
+   echo "│   │   └── USAGE.md"
+   echo "│   ├── logs"
+   echo "│   ├── resource"
+   echo "│   │   └── static"
+   echo "│   │       ├── css"
+   echo "│   │       ├── imgs"
+   echo "│   │       ├── js"
+   echo "│   │       └── vendor"
+   echo "│   └── src"
+   echo "│       ├── component"
+   echo "│       ├── config"
+   echo "│       ├── controller"
+   echo "│       ├── converter"
+   echo "│       ├── dao"
+   echo "│       ├── entity"
+   echo "│       ├── helper"
+   echo "│       ├── middleware"
+   echo "│       ├── model"
+   echo "│       ├── repository"
+   echo "│       ├── service"
+   echo "│       │   └── impl"
+   echo "│       ├── test"
+   echo "│       └── view"
+   echo "│           ├── event"
+   echo "│           └── fragment"
+   echo "├── base"
+   echo "├── LICENSE"
+   echo "├── README.md"
+   echo "└── test"
+
+   echo ""
+
+   echo "│──── This folder structure is in: ${carpeta} ────│"
+
+   echo ""
 
 done
 
